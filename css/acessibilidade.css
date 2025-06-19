@@ -1,0 +1,41 @@
+/* Modo alto contraste */
+.high-contrast {
+    background-color: #000 !important;
+    color: #FFF !important;
+}
+
+.high-contrast .sidebar,
+.high-contrast .page-footer {
+    background-color: #000 !important;
+    color: #FFF !important;
+    border-right: 2px solid #FFF;
+}
+
+.high-contrast .sidebar-nav a,
+.high-contrast .page-header h1,
+.high-contrast .section-title,
+.high-contrast .card-title {
+    color: #FFF !important;
+}
+
+.high-contrast .card {
+    background-color: #000 !important;
+    color: #FFF !important;
+    border: 2px solid #FFF;
+}
+
+.high-contrast .btn {
+    background-color: #FFF !important;
+    color: #000 !important;
+    border: 2px solid #FFF;
+}
+
+/* Texto aumentado */
+.large-text {
+    font-size: 125% !important;
+}
+
+.large-text .card-title,
+.large-text .section-title {
+    font-size: 150% !important;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal do Curso de SI - Universidade</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/acessibilidade.css"
+      id="acessibilidade-css"
+      disabled
+    />
+  </head>
+  <body>
+    <div class="layout-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Sistemas de Informação</h2>
+          <button class="sidebar-toggle" aria-label="Fechar menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="active"
+                ><i class="fas fa-home"></i> Página Inicial</a
+              >
+            </li>
+            <li>
+              <a href="grade-tradicional.html"
+                ><i class="fas fa-list-alt"></i> Grade Tradicional</a
+              >
+            </li>
+            <li>
+              <a href="jornadas-especializadas.html"
+                ><i class="fas fa-route"></i> Jornadas Especializadas</a
+              >
+            </li>
+            <li>
+              <a href="eventos-mentorias.html"
+                ><i class="fas fa-calendar-alt"></i> Eventos & Mentorias</a
+              >
+            </li>
+            <li>
+              <a href="noticias-dicas.html"
+                ><i class="fas fa-newspaper"></i> Notícias & Dicas</a
+              >
+            </li>
+            <li>
+              <a href="atletica.html"><i class="fas fa-trophy"></i> Atlética</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Conteúdo Principal -->
+      <main class="main-content">
+        <header class="page-header">
+          <button class="sidebar-toggle-mobile" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h1>Portal do Curso de Sistemas de Informação</h1>
+          <div class="accessibility-buttons">
+            <button id="high-contrast" aria-label="Alto contraste">
+              <i class="fas fa-adjust"></i>
+            </button>
+            <button id="increase-font" aria-label="Aumentar fonte">
+              <i class="fas fa-text-height"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- O conteúdo específico de cada página será inserido aqui -->
+        <div class="page-content">
+          <div class="page-content">
+            <section class="specialized-journeys">
+              <h2 class="section-title">Jornadas Especializadas</h2>
+
+              <div class="card">
+                <p>
+                  Nos últimos anos do curso, você pode escolher uma jornada
+                  especializada para aprofundar seus conhecimentos em áreas
+                  específicas de TI.
+                </p>
+
+ <div class="journey-cards">
+    <!-- Trilha UX Design -->
+    <div class="journey-card ux-track">
+        <div class="journey-icon">
+            <i class="fas fa-paint-brush"></i>
+        </div>
+        <h3>Trilha UX Design</h3>
+        <ul class="journey-disciplines">
+            <li>Design de Interação</li>
+            <li>Prototipação Avançada</li>
+            <li>Pesquisa com Usuários</li>
+            <li>Design Thinking</li>
+        </ul>
+        <div class="journey-project">
+            <h4>Projeto Integrador:</h4>
+            <p>Redesenho de aplicativo real em parceria com empresas locais</p>
+        </div>
+        <a href="#" class="btn btn-small">Saiba Mais</a>
+    </div>
+
+    <!-- Trilha Desenvolvimento -->
+    <div class="journey-card dev-track">
+        <div class="journey-icon">
+            <i class="fas fa-code"></i>
+        </div>
+        <h3>Trilha Desenvolvimento</h3>
+        <ul class="journey-disciplines">
+            <li>Arquitetura de Software</li>
+            <li>DevOps</li>
+            <li>Desenvolvimento Mobile</li>
+            <li>Cloud Computing</li>
+        </ul>
+        <div class="journey-project">
+            <h4>Projeto Integrador:</h4>
+            <p>Desenvolvimento de MVP para uma startup real</p>
+        </div>
+        <a href="#" class="btn btn-small">Saiba Mais</a>
+    </div>
+
+    <!-- Trilha QA -->
+    <div class="journey-card qa-track">
+        <div class="journey-icon">
+            <i class="fas fa-bug"></i>
+        </div>
+        <h3>Trilha QA</h3>
+        <ul class="journey-disciplines">
+            <li>Testes Automatizados</li>
+            <li>Garantia de Qualidade</li>
+            <li>Testes de Performance</li>
+            <li>Segurança em Software</li>
+        </ul>
+        <div class="journey-project">
+            <h4>Projeto Integrador:</h4>
+            <p>Plano de testes completo para um software em produção</p>
+        </div>
+        <a href="#" class="btn btn-small">Saiba Mais</a>
+    </div>
+
+    <!-- Trilha Gestão em TI -->
+    <div class="journey-card management-track">
+        <div class="journey-icon">
+            <i class="fas fa-chart-line"></i>
+        </div>
+        <h3>Trilha Gestão em TI</h3>
+        <ul class="journey-disciplines">
+            <li>Gestão de Projetos de TI</li>
+            <li>Governança de TI (COBIT/ITIL)</li>
+            <li>Liderança em Equipes Técnicas</li>
+            <li>Orçamento e Finanças para TI</li>
+        </ul>
+        <div class="journey-project">
+            <h4>Projeto Integrador:</h4>
+            <p>Plano de Transformação Digital para uma organização real</p>
+        </div>
+        <a href="#" class="btn btn-small">Saiba Mais</a>
+    </div>
+</div>
+
+                <div class="journey-cta">
+                  <h3>Não sabe qual jornada escolher?</h3>
+                  <p>
+                    Responda nosso quiz e descubra qual trilha combina mais com
+                    seu perfil!
+                  </p>
+                  <a href="quiz-jornada.html" class="btn btn-secondary"
+                    >Fazer Quiz</a
+                  >
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <footer class="page-footer">
+          <div class="footer-content">
+            <div class="footer-info">
+              <p>Sistemas de Informação</p>
+              <p>UNIPLAC © 2025</p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/acessibilidade.js"></script>
+  </body>
+</html>

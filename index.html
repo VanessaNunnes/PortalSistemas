@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal do Curso de SI - Universidade</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/acessibilidade.css"
+      id="acessibilidade-css"
+      disabled
+    />
+  </head>
+  <body>
+    <div class="layout-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Sistemas de Informação</h2>
+          <button class="sidebar-toggle" aria-label="Fechar menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="active"
+                ><i class="fas fa-home"></i> Página Inicial</a
+              >
+            </li>
+            <li>
+              <a href="grade-tradicional.html"
+                ><i class="fas fa-list-alt"></i> Grade Tradicional</a
+              >
+            </li>
+            <li>
+              <a href="jornadas-especializadas.html"
+                ><i class="fas fa-route"></i> Jornadas Especializadas</a
+              >
+            </li>
+            <li>
+              <a href="eventos-mentorias.html"
+                ><i class="fas fa-calendar-alt"></i> Eventos & Mentorias</a
+              >
+            </li>
+            <li>
+              <a href="noticias-dicas.html"
+                ><i class="fas fa-newspaper"></i> Notícias & Dicas</a
+              >
+            </li>
+            <li>
+              <a href="atletica.html"><i class="fas fa-trophy"></i> Atlética</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Conteúdo Principal -->
+      <main class="main-content">
+        <header class="page-header">
+          <button class="sidebar-toggle-mobile" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h1>Portal do Curso de Sistemas de Informação</h1>
+          <div class="accessibility-buttons">
+            <button id="high-contrast" aria-label="Alto contraste">
+              <i class="fas fa-adjust"></i>
+            </button>
+            <button id="increase-font" aria-label="Aumentar fonte">
+              <i class="fas fa-text-height"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- O conteúdo específico de cada página será inserido aqui -->
+        <div class="page-content">
+          <!-- Adicionar dentro de <div class="page-content"> -->
+          <div class="hero-banner">
+            <div class="banner-content">
+              <h2>
+                Descubra seu caminho em TI: Grade tradicional ou jornada
+                especializada?
+              </h2>
+              <div class="banner-buttons">
+                <a href="jornadas-especializadas.html" class="btn btn-secondary"
+                  >Conheça as Trilhas</a
+                >
+                <a href="grade-tradicional.html" class="btn"
+                  >Veja a Grade Padrão</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <section class="about-course">
+            <div class="card">
+              <h3 class="section-title">Sobre o Curso</h3>
+              <p>
+                O curso de Sistemas de Informação une base técnica sólida com
+                personalização de carreira por meio de trilhas nos anos finais.
+              </p>
+
+              <div class="infographic-container">
+                <div class="infographic-header">
+                  <h3>Como Funciona Nosso Curso?</h3>
+                  <p>
+                    Compare os dois modelos de formação e descubra qual combina
+                    mais com você
+                  </p>
+                </div>
+
+                <div class="comparison-grid">
+                  <!-- Grade Tradicional -->
+                  <div class="comparison-column traditional">
+                    <div class="column-header">
+                      <div class="icon-circle">
+                        <i class="fas fa-book-open"></i>
+                      </div>
+                      <h4>Grade Tradicional</h4>
+                      <p>Semestres 1-5</p>
+                    </div>
+
+                    <div class="feature-list">
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Base Ampliada</h5>
+                          <p>Visão geral de todas as áreas de TI</p>
+                        </div>
+                      </div>
+
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-users"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Turma Unificada</h5>
+                          <p>Todos os alunos seguem o mesmo currículo</p>
+                        </div>
+                      </div>
+
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Foco Teórico</h5>
+                          <p>Fundamentos sólidos em computação</p>
+                        </div>
+                      </div>
+
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Preparação Geral</h5>
+                          <p>Opções diversas de carreira ao final</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Divisor Visual -->
+                  <div class="comparison-divider">
+                    <div class="divider-line"></div>
+                    <div class="divider-text">OU</div>
+                    <div class="divider-line"></div>
+                  </div>
+
+                  <!-- Jornadas Especializadas -->
+                  <div class="comparison-column specialized">
+                    <div class="column-header">
+                      <div class="icon-circle">
+                        <i class="fas fa-route"></i>
+                      </div>
+                      <h4>Jornadas Especializadas</h4>
+                      <p>Semestres 6-8</p>
+                    </div>
+
+                    <div class="feature-list">
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Foco Específico</h5>
+                          <p>Profundidade em uma área de atuação</p>
+                        </div>
+                      </div>
+
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Aplicação Prática</h5>
+                          <p>Projetos reais com empresas parceiras</p>
+                        </div>
+                      </div>
+
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Preparação Profissional</h5>
+                          <p>Habilidades direcionadas ao mercado</p>
+                        </div>
+                      </div>
+
+                      <div class="feature-item">
+                        <div class="feature-icon">
+                          <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="feature-text">
+                          <h5>Networking Especializado</h5>
+                          <p>Conexões com profissionais da área</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="infographic-footer">
+                  <p>
+                    Após completar a base comum, você escolhe sua jornada
+                    especializada!
+                  </p>
+                  <a href="jornadas-especializadas.html" class="btn"
+                    >Conheça as Trilhas</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="highlights">
+            <div class="card">
+              <h3 class="section-title">Destaques</h3>
+              <div class="highlight-cards">
+                <div class="highlight-card">
+                  <i class="fas fa-calendar-check"></i>
+                  <h4>Próximos Eventos</h4>
+                  <p>Workshop de Carreira em TI - 25/06</p>
+                  <a href="eventos-mentorias.html" class="btn btn-small"
+                    >Ver Todos</a
+                  >
+                </div>
+
+                <div class="highlight-card">
+                  <i class="fas fa-graduation-cap"></i>
+                  <h4>Alunos Destaque</h4>
+                  <p>Conheça nossos alunos contratados por grandes empresas</p>
+                  <a href="noticias-dicas.html" class="btn btn-small"
+                    >Ver Notícias</a
+                  >
+                </div>
+
+                <div class="highlight-card">
+                  <i class="fas fa-users"></i>
+                  <h4>Comunidade</h4>
+                  <p>Participe da Atlética e dos grupos de estudo</p>
+                  <a href="atletica.html" class="btn btn-small">Saiba Mais</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <footer class="page-footer">
+          <div class="footer-content">
+            <div class="footer-info">
+              <p>UNIPLAC © 2025</p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/acessibilidade.js"></script>
+  </body>
+</html>

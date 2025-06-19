@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos & Mentorias | Portal do Curso de SI</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/acessibilidade.css"
+      id="acessibilidade-css"
+      disabled
+    />
+  </head>
+  <body>
+    <div class="layout-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Sistemas de Informação</h2>
+          <button class="sidebar-toggle" aria-label="Fechar menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Página Inicial</a>
+            </li>
+            <li>
+              <a href="grade-tradicional.html"
+                ><i class="fas fa-list-alt"></i> Grade Tradicional</a
+              >
+            </li>
+            <li>
+              <a href="jornadas-especializadas.html"
+                ><i class="fas fa-route"></i> Jornadas Especializadas</a
+              >
+            </li>
+            <li>
+              <a href="eventos-mentorias.html" class="active"
+                ><i class="fas fa-calendar-alt"></i> Eventos & Mentorias</a
+              >
+            </li>
+            <li>
+              <a href="noticias-dicas.html"
+                ><i class="fas fa-newspaper"></i> Notícias & Dicas</a
+              >
+            </li>
+            <li>
+              <a href="atletica.html"><i class="fas fa-trophy"></i> Atlética</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Conteúdo Principal -->
+      <main class="main-content">
+        <header class="page-header">
+          <button class="sidebar-toggle-mobile" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h1>Eventos & Mentorias</h1>
+          <div class="accessibility-buttons">
+            <button id="high-contrast" aria-label="Alto contraste">
+              <i class="fas fa-adjust"></i>
+            </button>
+            <button id="increase-font" aria-label="Aumentar fonte">
+              <i class="fas fa-text-height"></i>
+            </button>
+          </div>
+        </header>
+
+        <div class="page-content">
+          <section class="events-mentorships">
+            <div class="card">
+              <div class="filters">
+                <button class="filter-btn active" data-filter="all">
+                  Todos
+                </button>
+                <button class="filter-btn" data-filter="palestra">
+                  Palestras
+                </button>
+                <button class="filter-btn" data-filter="workshop">
+                  Workshops
+                </button>
+                <button class="filter-btn" data-filter="imersao">
+                  Imersões
+                </button>
+              </div>
+
+              <div class="calendar-container">
+                <div class="calendar">
+                  <div class="calendar-header">
+                    <button class="calendar-nav" id="prev-month">
+                      <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <h3 id="current-month">Junho 2025</h3>
+                    <button class="calendar-nav" id="next-month">
+                      <i class="fas fa-chevron-right"></i>
+                    </button>
+                  </div>
+                  <div class="calendar-grid" id="calendar-grid">
+                    <!-- Dias da semana -->
+                    <div class="calendar-day-header">Dom</div>
+                    <div class="calendar-day-header">Seg</div>
+                    <div class="calendar-day-header">Ter</div>
+                    <div class="calendar-day-header">Qua</div>
+                    <div class="calendar-day-header">Qui</div>
+                    <div class="calendar-day-header">Sex</div>
+                    <div class="calendar-day-header">Sáb</div>
+                    
+                    <!-- Dias do mês -->
+                    <!-- Semana 1 -->
+                    <div class="calendar-day">1</div>
+                    <div class="calendar-day">2</div>
+                    <div class="calendar-day">3</div>
+                    <div class="calendar-day">4</div>
+                    <div class="calendar-day">5</div>
+                    <div class="calendar-day">6</div>
+                    <div class="calendar-day">7</div>
+                    
+                    <!-- Semana 2 -->
+                    <div class="calendar-day">8</div>
+                    <div class="calendar-day">9</div>
+                    <div class="calendar-day">10</div>
+                    <div class="calendar-day">11</div>
+                    <div class="calendar-day">12</div>
+                    <div class="calendar-day">13</div>
+                    <div class="calendar-day">14</div>
+                    
+                    <!-- Semana 3 -->
+                    <div class="calendar-day">15</div>
+                    <div class="calendar-day">16</div>
+                    <div class="calendar-day">17</div>
+                    <div class="calendar-day">18</div>
+                    <div class="calendar-day">19</div>
+                    <div class="calendar-day">20</div>
+                    <div class="calendar-day">21</div>
+                    
+                    <!-- Semana 4 -->
+                    <div class="calendar-day">22</div>
+                    <div class="calendar-day">23</div>
+                    <div class="calendar-day">24</div>
+                    <div class="calendar-day">25</div>
+                    <div class="calendar-day">26</div>
+                    <div class="calendar-day">27</div>
+                    <div class="calendar-day">28</div>
+                    
+                    <!-- Semana 5 -->
+                    <div class="calendar-day">29</div>
+                    <div class="calendar-day">30</div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                    <div class="calendar-day empty"></div>
+                  </div>
+                </div>
+
+                <div class="events-list">
+                  <div class="event-card" data-type="palestra" data-date="2025-06-25">
+                    <div class="event-date">
+                      <span class="event-day">25</span>
+                      <span class="event-month">Jun</span>
+                    </div>
+                    <div class="event-info">
+                      <h3>Introdução à Carreira em UX</h3>
+                      <p class="event-time">
+                        <i class="far fa-clock"></i> 14:00 - 16:00
+                      </p>
+                      <p class="event-location">
+                        <i class="fas fa-map-marker-alt"></i> Auditório Central
+                      </p>
+                      <p class="event-description">
+                        Palestra com Ana Silva, Product Manager na TechSolutions
+                      </p>
+                      <a href="#" class="btn btn-small">Inscreva-se</a>
+                    </div>
+                  </div>
+
+                  <div class="event-card" data-type="workshop" data-date="2025-06-18">
+                    <div class="event-date">
+                      <span class="event-day">18</span>
+                      <span class="event-month">Jun</span>
+                    </div>
+                    <div class="event-info">
+                      <h3>Workshop de Desenvolvimento Ágil</h3>
+                      <p class="event-time">
+                        <i class="far fa-clock"></i> 09:00 - 12:00
+                      </p>
+                      <p class="event-location">
+                        <i class="fas fa-map-marker-alt"></i> Laboratório 5
+                      </p>
+                      <p class="event-description">
+                        Práticas de Scrum e Kanban com time da SoftTech
+                      </p>
+                      <a href="#" class="btn btn-small">Inscreva-se</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="testimonials">
+                <h3>Depoimentos de Mentores</h3>
+                <div class="testimonial-slider">
+                  <div class="testimonial">
+                    <div class="testimonial-content">
+                      <p>
+                        "Tive as mesmas dúvidas que vocês quando estava na
+                        faculdade. Hoje sou Product Manager e quero ajudar
+                        alunos a encontrarem seu caminho!"
+                      </p>
+                    </div>
+                    <div class="testimonial-author">
+                      <img src="images/mentor-ana.jpg" alt="Ana Silva" />
+                      <div>
+                        <h4>Ana Silva</h4>
+                        <p>Product Manager, TechSolutions</p>
+                        <p>Ex-aluna do curso</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <footer class="page-footer">
+          <div class="footer-content">
+            <div class="footer-info">
+              <p>Sistemas de Informação</p>
+              <p>UNIPLAC © 2025</p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/acessibilidade.js"></script>
+    <script>
+      // Script para marcar o dia 25 como tendo evento
+      document.addEventListener('DOMContentLoaded', function() {
+        const days = document.querySelectorAll('.calendar-day');
+        days.forEach(day => {
+          if (day.textContent === '25') {
+            day.classList.add('has-event');
+            day.innerHTML = '<span>25</span><div class="event-dot"></div>';
+          }
+        });
+        
+        // Filtros de eventos
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const eventCards = document.querySelectorAll('.event-card');
+        
+        filterBtns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            const filter = this.dataset.filter;
+            
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            
+            eventCards.forEach(card => {
+              if (filter === 'all' || card.dataset.type === filter) {
+                card.style.display = 'flex';
+              } else {
+                card.style.display = 'none';
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

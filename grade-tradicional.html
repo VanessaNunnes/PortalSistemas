@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal do Curso de SI - Universidade</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/acessibilidade.css"
+      id="acessibilidade-css"
+      disabled
+    />
+  </head>
+  <body>
+    <div class="layout-container">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Sistemas de Informação</h2>
+          <button class="sidebar-toggle" aria-label="Fechar menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <nav class="sidebar-nav">
+          <ul>
+            <li>
+              <a href="index.html" class="active"
+                ><i class="fas fa-home"></i> Página Inicial</a
+              >
+            </li>
+            <li>
+              <a href="grade-tradicional.html"
+                ><i class="fas fa-list-alt"></i> Grade Tradicional</a
+              >
+            </li>
+            <li>
+              <a href="jornadas-especializadas.html"
+                ><i class="fas fa-route"></i> Jornadas Especializadas</a
+              >
+            </li>
+            <li>
+              <a href="eventos-mentorias.html"
+                ><i class="fas fa-calendar-alt"></i> Eventos & Mentorias</a
+              >
+            </li>
+            <li>
+              <a href="noticias-dicas.html"
+                ><i class="fas fa-newspaper"></i> Notícias & Dicas</a
+              >
+            </li>
+            <li>
+              <a href="atletica.html"><i class="fas fa-trophy"></i> Atlética</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Conteúdo Principal -->
+      <main class="main-content">
+        <header class="page-header">
+          <button class="sidebar-toggle-mobile" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <h1>Portal do Curso de Sistemas de Informação</h1>
+          <div class="accessibility-buttons">
+            <button id="high-contrast" aria-label="Alto contraste">
+              <i class="fas fa-adjust"></i>
+            </button>
+            <button id="increase-font" aria-label="Aumentar fonte">
+              <i class="fas fa-text-height"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- O conteúdo específico de cada página será inserido aqui -->
+        <div class="page-content">
+          <div class="page-content">
+            <section class="traditional-grade">
+              <h2 class="section-title">Grade Tradicional</h2>
+
+              <div class="card">
+                <p class="highlight-quote">
+                  "Nos três primeiros anos, todos seguem juntos. Depois, você
+                  escolhe sua trilha!"
+                </p>
+
+                <div class="accordion-container">
+                  <div class="accordion-item">
+                    <button class="accordion-header">
+                      <span>1º Semestre</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                      <ul>
+                        <li><strong>Algoritmos</strong> 80h</li>
+                        <li>
+                          <strong>Arquitetura de Computadores</strong> 80h
+                        </li>
+                        <li>
+                          <strong>Introdução ao Desenvolvimento Web</strong> 80h
+                        </li>
+                        <li>
+                          <strong
+                            >Tecnologias da Informação e Comunicação -
+                            EAD</strong
+                          >
+                          80h
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <button class="accordion-header">
+                      <span>2º Semestre</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                      <ul>
+                        <li><strong>Banco de Dados</strong> 80h</li>
+                        <li><strong>Práticas Extensionistas</strong> 40h</li>
+                        <li><strong>Sociedade da Informação</strong> 80h</li>
+                        <li><strong>Técnicas de Programação</strong> 80h</li>
+                        <li>
+                          <strong>Cultura, Diferença e Cidadania - EAD</strong>
+                          80h
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <button class="accordion-header">
+                      <span>3º Semestre</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                      <ul>
+                        <li><strong>Desenvolvimento de Sistemas I</strong> 80h</li>
+                        <li><strong>Fundamentos de Sistemas de Informação</strong> 40h</li>
+                        <li><strong>Gestão da Inovação</strong> 40h</li>
+                        <li><strong>Práticas Extensionistas</strong> 40h</li>
+                        <li>
+                          <strong>User Experience</strong>
+                          80h
+                        </li>
+                        <li><strong>Língua Portuguesa - EAD</strong> 40h</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                   <div class="accordion-item">
+                    <button class="accordion-header">
+                      <span>4º Semestre</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                      <ul>
+                        <li><strong>Desenvolvimento de Sistemas II</strong> 80h</li>
+                        <li><strong>Engenharia de Software</strong> 80h</li>
+                        <li><strong>Governança de TI I</strong> 80h</li>
+                        <li><strong>Práticas Extensionistas</strong> 40h</li>
+                        <li>
+                          <strong>Iniciação à Pesquisa Científica - EAD</strong>
+                          80h
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <button class="accordion-header">
+                      <span>5º Semestre</span>
+                      <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-content">
+                      <ul>
+                        <li><strong>Desenvolvimento Web</strong> 80h</li>
+                        <li><strong>Governança de TI II</strong> 80h</li>
+                        <li><strong>Marketing Digital</strong> 80h</li>
+                        <li><strong>Pesquisa Operacional</strong> 40h</li>
+                        <li><strong>Práticas Extensionistas</strong> 40h</li>
+                        <li><strong>Ambiente e Desenvolvimento Sustentável</strong> 80h</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="next-steps">
+                <h3>Pronto para escolher sua jornada?</h3>
+                <p>
+                  Após completar a grade tradicional, você pode optar por uma
+                  das trilhas especializadas.
+                </p>
+                <a href="jornadas-especializadas.html" class="btn"
+                  >Conheça as Jornadas</a
+                >
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <footer class="page-footer">
+          <div class="footer-content">
+            <div class="footer-info">
+              <p>Sistemas de Informação</p>
+              <p>UNIPLAC © 2025</p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/acessibilidade.js"></script>
+  </body>
+</html>
