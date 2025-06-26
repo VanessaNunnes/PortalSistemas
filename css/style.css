@@ -1749,3 +1749,17 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.quiz-result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quiz-result .btn {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+#restart-quiz {
+  margin-top: 15px;
+}
