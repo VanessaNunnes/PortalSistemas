@@ -14,8 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Fechar sidebar ao clicar fora
     document.addEventListener('click', function(event) {
-        if (!sidebar.contains(event.target) && event.target !== sidebarToggleMobile) {
-            sidebar.classList.remove('open');
+        const isClickInsideSidebar = sidebar.contains(event.target);
+        const isToggleClick = event.target.closest('.sidebar-toggle-mobile') !== null;
+
+        if (!isClickInsideSidebar && !isToggleClick) {
+        sidebar.classList.remove('open');
         }
     });
     
